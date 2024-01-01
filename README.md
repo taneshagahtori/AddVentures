@@ -1,1 +1,1 @@
-Addiion Game built with HTML,CSS and JS
+Addition Game built with HTML,CSS and JS
