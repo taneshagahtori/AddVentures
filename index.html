@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddVentures</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="boxes">
+            <div id="number1">1</div>
+            <div>+</div>
+            <div id="number2">2</div>
+        </div>
+        <div class="boxes center">
+            <div>=</div>
+        </div>
+        <input id="input" type="text" placeholder="?">
+        <button onclick="checkAnswer()">Submit</button>
+        <div>Score : <span id="score">0</span></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
